@@ -1,0 +1,22 @@
+{
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "reportDir": "cypress/report/mochawesome-report"
+    },
+    "screenshotsFolder": "cypress/screenshots",
+    "chromeWebSecurity": false,
+    
+    "env": {
+      "baseUrl": "",
+      "username": "",
+      "password": "",
+      "session_token_url": "https://<insert-here>/api/v1/authn",
+      "issuer_url": "https://<insert-here>/oauth2/default",
+      "auth_token_url": "https://<insert-here>/oauth2/default/v1/authorize",      
+      "okta_client_id": "insert-here>",
+      "redirect_uri": "https://<insert-here>"      
+    }
+}
