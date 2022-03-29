@@ -11,7 +11,6 @@
     "cy:run:chrome": "./node_modules/.bin/cypress run --browser chrome",
     "cy:run:firefox": "./node_modules/.bin/cypress run --browser firefox",
     "cy:run:headless": "./node_modules/.bin/cypress run --browser electron",
-    "cy:dashboard": "npx cypress run --record --key df772ba0-7472-48fd-a5c3-680f242b2f26",
     "clean:reports": "rm -rf cypress/report/mochawesome-report/",
     "testHeadless": "./node_modules/.bin/cypress run --headless",
     "test": "npm run clean:reports && ./node_modules/.bin/cypress run",
